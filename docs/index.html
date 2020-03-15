@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dot Game</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="game column">
+      <div class="menu column">
+        <div class="top-menu row">
+          <h1 id="score-board" class="score">0</h1>
+          <button id="start-button">Start</button>
+        </div>
+        <div class="slider-wrapper">
+          <input id="slider-speed" type="range" min="10" max="100" value="50" />
+          <div class="slider-text">Speed</div>
+        </div>
+      </div>
+      <div id="dot-board" class="board"></div>
+    </div>
+    <script src="./js/index.js" type="module"></script>
+  </body>
+</html>

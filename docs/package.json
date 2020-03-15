@@ -1,0 +1,14 @@
+{
+  "name": "tap-game",
+  "version": "1.0.0",
+  "description": "Tap Tap Tap Game",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass scss -o css"
+  },
+  "author": "linxea <linxea.linxea@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
